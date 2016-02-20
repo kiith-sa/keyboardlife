@@ -1,0 +1,1147 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>The Keyboard Life &mdash; Intro to gamedev using D 2014.10.26 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="_static/slides.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '2014.10.26',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/common.js"></script>
+    
+    <script type="text/javascript" src="_static/slides.js"></script>
+    <script type="text/javascript" src="_static/sync.js"></script>
+    <script type="text/javascript" src="_static/controller.js"></script>
+    <script type="text/javascript" src="_static/init.js"></script>
+    
+    
+    <link rel="top" title="Intro to gamedev using D 2014.10.26 documentation" href="#" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  
+<article class="slide level-1" id="the-keyboard-life">
+
+<h1>The Keyboard Life</h1>
+
+<p><a class="reference external" href="https://github.com/kiith-sa/keyboardlife">https://github.com/kiith-sa/keyboardlife</a></p>
+<p><a class="reference external" href="http://defenestrate.eu">http://defenestrate.eu</a></p>
+
+
+
+
+</article>
+<article class="slide level-2" id="a-long-time-ago">
+
+<h2>A long time ago...</h2>
+
+<div class="mainimage container">
+<a class="reference internal image-reference" href="_images/modelm_1.jpg"><img alt="_images/modelm_1.jpg" src="_images/modelm_1.jpg" style="width: 100%;" /></a>
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="buckling-spring">
+
+<h2>Buckling spring</h2>
+
+<p><a class="reference external" href="http://www.pckeyboard.com/">http://www.pckeyboard.com/</a></p>
+<a class="reference internal image-reference" href="_images/bucklingspring.gif"><img alt="_images/bucklingspring.gif" class="align-center" src="_images/bucklingspring.gif" style="width: 49%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="dark-ages-90-s">
+
+<h2>Dark Ages (90's+)</h2>
+
+<div class="mainimage container">
+<img alt="_images/rubberdome.jpg" src="_images/rubberdome.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="return-of-the-cherry-mx-2010">
+
+<h2>Return of the Cherry MX (2010+)</h2>
+
+<ul class="simple">
+<li>Market: coders, esports players wanting non-crap keyboards</li>
+<li>Result: expensive keyboards using Cherry MX switches</li>
+</ul>
+<div class="mainimage container">
+<img alt="_images/mx_wasd.png" src="_images/mx_wasd.png" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="cherry-mx">
+
+<h2>Cherry MX</h2>
+
+<a class="reference internal image-reference" href="_images/mxred.gif"><img alt="_images/mxred.gif" src="_images/mxred.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/mxblack.gif"><img alt="_images/mxblack.gif" src="_images/mxblack.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/mxblue.gif"><img alt="_images/mxblue.gif" src="_images/mxblue.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/mxbrown.gif"><img alt="_images/mxbrown.gif" src="_images/mxbrown.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/mxcomponents.png"><img alt="_images/mxcomponents.png" class="align-center" src="_images/mxcomponents.png" style="width: 68%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="the-clones">
+
+<h2>The Clones</h2>
+
+<a class="reference internal image-reference" href="_images/clones.png"><img alt="_images/clones.png" class="align-right" src="_images/clones.png" style="width: 42%;" /></a>
+<ul class="simple">
+<li>Cherry MX was patented - until recently</li>
+<li>Clones of variable quality now exist</li>
+<li>More diversity; not always exact clones</li>
+<li>Lower prices or... <strong>higher margins</strong></li>
+</ul>
+<p>... <em>avoid Kailh/Razer and you'll be fine</em></p>
+
+
+
+
+</article>
+<article class="slide level-2" id="the-others">
+
+<h2>The Others</h2>
+
+<a class="reference internal image-reference" href="_images/alps.jpg"><img alt="_images/alps.jpg" class="align-right" src="_images/alps.jpg" style="width: 32%;" /></a>
+<a class="reference internal image-reference" href="_images/topre.png"><img alt="_images/topre.png" class="align-right" src="_images/topre.png" style="width: 40%;" /></a>
+<ul class="simple">
+<li>ALPS</li>
+<li>Topre (magnetic)</li>
+<li>Frankensteins (MX Ergo Clear, Ghetto Green, etc.)</li>
+<li>Custom-designed switches</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="why-mechanical">
+
+<h2>Why mechanical?</h2>
+
+<ul class="simple">
+<li>Durable/maintainable; one keyboard for life</li>
+<li>Less hand strain, more predictable/consistent actuation force</li>
+<li>Different switches for different uses/people<ul>
+<li>tactile feedback (e.g. MX Blues) for fast, shallow typing</li>
+<li>linear low resistance (e.g. MX Reds) for FPS gaming</li>
+</ul>
+</li>
+<li><strong>Hackability</strong>, with a community/market of makers/components</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="custom-keyboards-easy-change-your-keys">
+
+<h2>Custom keyboards: easy (change your keys)</h2>
+
+<p><a class="reference external" href="http://www.wasdkeyboards.com/">http://www.wasdkeyboards.com/</a></p>
+<p><a class="reference external" href="http://www.maxkeyboard.com/max-nighthawk-104-key-custom-mechanical-keyboard.html">http://www.maxkeyboard.com/max-nighthawk-104-key-custom-mechanical-keyboard.html</a></p>
+<a class="reference internal image-reference" href="_images/wasdkeyboards.png"><img alt="_images/wasdkeyboards.png" class="align-center" src="_images/wasdkeyboards.png" style="width: 80%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="custom-keyboards-medium-open-source-designs">
+
+<h2>Custom keyboards: medium (open source designs)</h2>
+
+<p><strong>ErgoDox</strong> and derived designs, <strong>UHK</strong>, etc.</p>
+<a class="reference internal image-reference" href="_images/ergodox.jpg"><img alt="_images/ergodox.jpg" src="_images/ergodox.jpg" style="width: 43%;" /></a>
+<a class="reference internal image-reference" href="_images/uhk.jpg"><img alt="_images/uhk.jpg" src="_images/uhk.jpg" style="width: 39%;" /></a>
+<a class="reference internal image-reference" href="_images/ergodox3.jpg"><img alt="_images/ergodox3.jpg" src="_images/ergodox3.jpg" style="width: 43%;" /></a>
+<a class="reference internal image-reference" href="_images/diverge.jpg"><img alt="_images/diverge.jpg" src="_images/diverge.jpg" style="width: 39%;" /></a>
+<p>Pre-built: <a class="reference external" href="http://falbatech.pl">http://falbatech.pl</a>, <a class="reference external" href="http://uniquekeyboard.com/store/split-keyboard/diverge-ii">http://uniquekeyboard.com/store/split-keyboard/diverge-ii</a></p>
+
+
+
+
+</article>
+<article class="slide level-2" id="custom-keyboards-hard">
+
+<h2>Custom keyboards: hard</h2>
+
+<ul class="simple">
+<li>Do the AVR thing</li>
+<li>Design your layout</li>
+<li>Make your PCB (if you need one)</li>
+<li>Buy some switches (or <em>design+make</em> them for <em>very hard</em>)</li>
+<li>Buy/print your keykaps</li>
+<li>Print your case</li>
+</ul>
+<a class="reference internal image-reference" href="_images/vertigo.png"><img alt="_images/vertigo.png" class="align-right" src="_images/vertigo.png" style="width: 53.5%;" /></a>
+<a class="reference internal image-reference" href="_images/vertigo2.png"><img alt="_images/vertigo2.png" src="_images/vertigo2.png" style="width: 42%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-1" id="choosing-a-keyboard">
+
+<h1>Choosing a Keyboard</h1>
+
+<div class="mainimage container">
+<img alt="_images/choosing.png" src="_images/choosing.png" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="consult-the-experts">
+
+<h2>Consult the Experts</h2>
+
+<ul class="simple">
+<li><a class="reference external" href="https://mechanicalkeyboards.com/first_mechanical_keyboard.php">https://mechanicalkeyboards.com/first_mechanical_keyboard.php</a></li>
+<li><a class="reference external" href="https://www.reddit.com/r/MechanicalKeyboards/wiki/buying_guide">https://www.reddit.com/r/MechanicalKeyboards/wiki/buying_guide</a></li>
+<li><a class="reference external" href="https://deskthority.net/">https://deskthority.net/</a></li>
+<li><a class="reference external" href="https://deskthority.net/wiki/Main_Page">https://deskthority.net/wiki/Main_Page</a></li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="switch">
+
+<h2>Switch</h2>
+
+<p>Guide: <a class="reference external" href="http://i.imgur.com/cZkte.png">http://i.imgur.com/cZkte.png</a></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="21%" />
+<col width="11%" />
+<col width="8%" />
+<col width="16%" />
+<col width="13%" />
+<col width="13%" />
+<col width="16%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Switch</th>
+<th class="head">Tactile</th>
+<th class="head">Click</th>
+<th class="head">Force (cN)</th>
+<th class="head">Gaming*</th>
+<th class="head">Typing*</th>
+<th class="head">Universal*</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>MX Red</td>
+<td>No</td>
+<td>No</td>
+<td>45</td>
+<td><strong>8.76</strong></td>
+<td>7.17</td>
+<td>7.73</td>
+</tr>
+<tr class="row-odd"><td>MX Black</td>
+<td>No</td>
+<td>No</td>
+<td>60</td>
+<td>8.23</td>
+<td>6.64</td>
+<td>7.19</td>
+</tr>
+<tr class="row-even"><td>MX Brown</td>
+<td>Yes</td>
+<td>No</td>
+<td>45</td>
+<td>8.38</td>
+<td>8.31</td>
+<td><strong>8.42</strong></td>
+</tr>
+<tr class="row-odd"><td>MX Blue</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>50</td>
+<td>7.66</td>
+<td><strong>8.94</strong></td>
+<td><strong>8.11</strong></td>
+</tr>
+<tr class="row-even"><td>Topre 35g</td>
+<td>Yes</td>
+<td>No</td>
+<td>35</td>
+<td>8.16</td>
+<td>6.45</td>
+<td>5.15</td>
+</tr>
+<tr class="row-odd"><td>Topre 45g</td>
+<td>Yes</td>
+<td>No</td>
+<td>45</td>
+<td>8.12</td>
+<td><strong>8.61</strong></td>
+<td>7.67</td>
+</tr>
+<tr class="row-even"><td>Model M</td>
+<td>Yes</td>
+<td>Yes</td>
+<td>65</td>
+<td>7.56</td>
+<td><strong>9.11</strong></td>
+<td>7.99</td>
+</tr>
+<tr class="row-odd"><td>Gateron Brown</td>
+<td>No</td>
+<td>No</td>
+<td>35</td>
+<td><strong>8.67</strong></td>
+<td><strong>8.50</strong></td>
+<td><strong>8.50**</strong></td>
+</tr>
+<tr class="row-even"><td>Gateron Clear</td>
+<td>No</td>
+<td>No</td>
+<td>35</td>
+<td><strong>8.50</strong></td>
+<td>7.75</td>
+<td>7.75</td>
+</tr>
+<tr class="row-odd"><td>Kailh $COLOR</td>
+<td>Bad</td>
+<td>Bad</td>
+<td>Bad</td>
+<td>5-7</td>
+<td>5-6</td>
+<td>5-7</td>
+</tr>
+</tbody>
+</table>
+<p>* : Ratings from <a class="reference external" href="https://mechanicalkeyboards.com/mechanical_switches.php">https://mechanicalkeyboards.com/mechanical_switches.php</a></p>
+<p>** : Only 4 reviews</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="o-rings">
+
+<h2>O-rings</h2>
+
+<p>Helps prevent death by coworker's shotgun</p>
+<p>Guide: <a class="reference external" href="http://i.imgur.com/FdUlT.png">http://i.imgur.com/FdUlT.png</a></p>
+<a class="reference internal image-reference" href="_images/orings.jpg"><img alt="_images/orings.jpg" src="_images/orings.jpg" style="width: 70%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="size-shape">
+
+<h2>Size/shape</h2>
+
+<a class="reference internal image-reference" href="_images/sizes.png"><img alt="_images/sizes.png" class="align-right" src="_images/sizes.png" style="width: 60%;" /></a>
+<ul class="simple">
+<li><strong>Full</strong>: 3D authoring</li>
+<li><strong>80%</strong>/<strong>Tenkeyless</strong>: Less keyboard/mouse distance</li>
+</ul>
+<a class="reference internal image-reference" href="_images/75.png"><img alt="_images/75.png" class="align-right" src="_images/75.png" style="width: 50%;" /></a>
+<ul class="simple">
+<li><strong>75%</strong>: Perfect?</li>
+<li><strong>60%</strong>: Show off my Pok3r</li>
+</ul>
+<a class="reference internal image-reference" href="_images/40.jpg"><img alt="_images/40.jpg" class="align-right" src="_images/40.jpg" style="width: 40%;" /></a>
+<ul class="simple">
+<li><strong>40%</strong>: True Masochist</li>
+<li><strong>ErgoDox</strong>/<strong>Kinesis</strong>/etc: Who gives a shit</li>
+</ul>
+<a class="reference internal image-reference" href="_images/kinesis.png"><img alt="_images/kinesis.png" src="_images/kinesis.png" style="width: 42%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="keyboard">
+
+<h2>Keyboard</h2>
+
+<a class="reference internal image-reference" href="_images/mount.png"><img alt="_images/mount.png" class="align-right" src="_images/mount.png" style="width: 35%;" /></a>
+<ul>
+<li><p class="first">PCB or plate mounted?</p>
+<p><a class="reference external" href="https://deskthority.net/wiki/Switch_mount">https://deskthority.net/wiki/Switch_mount</a></p>
+</li>
+<li><p class="first">6KRO? <strong>NKRO</strong>? (how many keys can I press at once?)</p>
+<p><a class="reference external" href="https://deskthority.net/wiki/NKRO">https://deskthority.net/wiki/NKRO</a></p>
+</li>
+<li><p class="first">Keycap plastic/quality?</p>
+<p><a class="reference external" href="https://deskthority.net/wiki/Keycap_construction">https://deskthority.net/wiki/Keycap_construction</a></p>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="extras">
+
+<h2>Extras</h2>
+
+<ul>
+<li><p class="first">Backlight ? RGB ? Programmable ?</p>
+<p>DIY Possibility: mode-dependent individual key backlighting in Vim</p>
+</li>
+<li><p class="first">USB hub?</p>
+</li>
+<li><p class="first">Macro keys?</p>
+</li>
+<li><p class="first">Fully programmable layout? Memory? Layout switching?</p>
+</li>
+<li><p class="first">Cable management?</p>
+</li>
+<li><p class="first">USB hub?</p>
+</li>
+</ul>
+<p>... Ruler?</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="hints">
+
+<h2>Hints</h2>
+
+<ul class="simple">
+<li>Take your time, <em>keyboard for life</em> deserves days of your time</li>
+<li>Price != quality</li>
+<li>Nice features != good keyboard</li>
+<li>Google for issues with <code class="docutils literal"><span class="pre">$KEYBOARD</span></code></li>
+<li>Don't buy marketing bullshit, buy parameters/reviews</li>
+<li>Read/ask on Reddit/forums/etc.</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-1" id="googlable-brands">
+
+<h1>Googlable brands</h1>
+
+
+
+
+
+</article>
+<article class="slide level-2" id="wasd">
+
+<h2>WASD</h2>
+
+<a class="reference internal image-reference" href="_images/wasd_thumb.png"><img alt="_images/wasd_thumb.png" class="align-left" src="_images/wasd_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/wasd_code.jpg" src="_images/wasd_code.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="royal-kludge">
+
+<h2>Royal Kludge</h2>
+
+<a class="reference internal image-reference" href="_images/royalkludge_thumb.png"><img alt="_images/royalkludge_thumb.png" class="align-left" src="_images/royalkludge_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/royal_kludge.jpg" src="_images/royal_kludge.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="das-keyboard">
+
+<h2>Das Keyboard</h2>
+
+<a class="reference internal image-reference" href="_images/daskeyboard_thumb.png"><img alt="_images/daskeyboard_thumb.png" class="align-left" src="_images/daskeyboard_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/das.jpg" src="_images/das.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="rosewill">
+
+<h2>Rosewill</h2>
+
+<div class="mainimage container">
+<img alt="_images/rosewill.jpg" src="_images/rosewill.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="razer">
+
+<h2>Razer</h2>
+
+<p>(over there)</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="topre">
+
+<h2>Topre</h2>
+
+<a class="reference internal image-reference" href="_images/topre_thumb.png"><img alt="_images/topre_thumb.png" class="align-left" src="_images/topre_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/topre_realforce.jpg" src="_images/topre_realforce.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="unicomp">
+
+<h2>Unicomp</h2>
+
+<div class="mainimage container">
+<img alt="_images/unicomp.jpg" src="_images/unicomp.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="cherry">
+
+<h2>Cherry</h2>
+
+<a class="reference internal image-reference" href="_images/cherry_thumb.png"><img alt="_images/cherry_thumb.png" class="align-left" src="_images/cherry_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/cherry.jpg" src="_images/cherry.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="kul">
+
+<h2>KUL</h2>
+
+<a class="reference internal image-reference" href="_images/kul_thumb.png"><img alt="_images/kul_thumb.png" class="align-left" src="_images/kul_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/kul.jpg" src="_images/kul.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="ducky">
+
+<h2>Ducky</h2>
+
+<a class="reference internal image-reference" href="_images/ducky_thumb.png"><img alt="_images/ducky_thumb.png" class="align-left" src="_images/ducky_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/ducky_full.jpg" src="_images/ducky_full.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="leopold">
+
+<h2>Leopold</h2>
+
+<a class="reference internal image-reference" href="_images/leopold_thumb.png"><img alt="_images/leopold_thumb.png" class="align-left" src="_images/leopold_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/leopold.jpg" src="_images/leopold.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="keycool">
+
+<h2>KeyCool</h2>
+
+<a class="reference internal image-reference" href="_images/keycool_thumb.png"><img alt="_images/keycool_thumb.png" class="align-left" src="_images/keycool_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/keycool_87.jpg" src="_images/keycool_87.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="tesoro">
+
+<h2>Tesoro</h2>
+
+<a class="reference internal image-reference" href="_images/tesoro_thumb.png"><img alt="_images/tesoro_thumb.png" class="align-left" src="_images/tesoro_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/tesoro_tizona.jpg" src="_images/tesoro_tizona.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="filco">
+
+<h2>Filco</h2>
+
+<div class="mainimage container">
+<img alt="_images/filco_ninjamajestouch.jpg" src="_images/filco_ninjamajestouch.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="coolermaster">
+
+<h2>CoolerMaster</h2>
+
+<a class="reference internal image-reference" href="_images/coolermaster_thumb.png"><img alt="_images/coolermaster_thumb.png" class="align-left" src="_images/coolermaster_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/coolermaster_stormtk.jpg" src="_images/coolermaster_stormtk.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="kbtalking">
+
+<h2>KBTalking</h2>
+
+<a class="reference internal image-reference" href="_images/kbtalking_usa_thumb.png"><img alt="_images/kbtalking_usa_thumb.png" class="align-left" src="_images/kbtalking_usa_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/kbtalking_race2.jpg" src="_images/kbtalking_race2.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="noppoo">
+
+<h2>Noppoo</h2>
+
+<div class="mainimage container">
+<img alt="_images/noppoo_chocmini.jpg" src="_images/noppoo_chocmini.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="deck">
+
+<h2>Deck</h2>
+
+<a class="reference internal image-reference" href="_images/deck_thumb.png"><img alt="_images/deck_thumb.png" class="align-left" src="_images/deck_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/deck.jpg" src="_images/deck.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="matias">
+
+<h2>Matias</h2>
+
+<a class="reference internal image-reference" href="_images/matias_thumb.png"><img alt="_images/matias_thumb.png" class="align-left" src="_images/matias_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/matias_securepro.jpg" src="_images/matias_securepro.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="tex">
+
+<h2>Tex</h2>
+
+<a class="reference internal image-reference" href="_images/tex_thumb.png"><img alt="_images/tex_thumb.png" class="align-left" src="_images/tex_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/tex_yoda.jpg" src="_images/tex_yoda.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="vortex">
+
+<h2>Vortex</h2>
+
+<a class="reference internal image-reference" href="_images/vortex_thumb.png"><img alt="_images/vortex_thumb.png" class="align-left" src="_images/vortex_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/vortex_pok3r.jpg" src="_images/vortex_pok3r.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="happy-hacking">
+
+<h2>Happy Hacking</h2>
+
+<div class="mainimage container">
+<img alt="_images/happyhacking.jpg" src="_images/happyhacking.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="kbparadise">
+
+<h2>KBParadise</h2>
+
+<a class="reference internal image-reference" href="_images/kbparadise_thumb.png"><img alt="_images/kbparadise_thumb.png" class="align-left" src="_images/kbparadise_thumb.png" style="width: 10%;" /></a>
+<div class="mainimage container">
+<img alt="_images/kbparadise.jpg" src="_images/kbparadise.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="kinesis">
+
+<h2>Kinesis</h2>
+
+<div class="mainimage container">
+<img alt="_images/kinesis_advantage.jpg" src="_images/kinesis_advantage.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="maltron">
+
+<h2>Maltron</h2>
+
+<div class="mainimage container">
+<img alt="_images/maltron.jpg" src="_images/maltron.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="the-ergonomic-keyboard-super-crap">
+
+<h2>The Ergonomic Keyboard (super crap)</h2>
+
+<div class="mainimage container">
+<img alt="_images/tek.jpg" src="_images/tek.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="ergodox">
+
+<h2>ErgoDox</h2>
+
+<div class="mainimage container">
+<img alt="_images/ergodox_wood.jpg" src="_images/ergodox_wood.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="diy">
+
+<h2>DIY</h2>
+
+<div class="mainimage container">
+<img alt="_images/custom_ergo.jpg" src="_images/custom_ergo.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="id1">
+
+<h2>DIY</h2>
+
+<div class="mainimage container">
+<img alt="_images/custom_matrix.jpg" src="_images/custom_matrix.jpg" />
+</div>
+
+
+
+
+</article>
+<article class="slide level-2" id="id2">
+
+<h2>DIY</h2>
+
+<div class="mainimage container">
+<img alt="_images/custom_doublematrix.jpg" src="_images/custom_doublematrix.jpg" />
+</div>
+
+
+
+
+</article><p></p>
+
+<article class="slide level-1" id="keyboard-uis">
+
+<h1>Keyboard UIs</h1>
+
+
+
+
+
+</article>
+<article class="slide level-2" id="mouse-sucks">
+
+<h2>Mouse sucks</h2>
+
+<ul>
+<li><p class="first">Need to move hand between keyboard and mouse all the time</p>
+<p><em>over the numpad</em>, if using a crappy keyboard</p>
+</li>
+<li><p class="first">Excessive mouse usage will fuck up your hand</p>
+</li>
+<li><p class="first">Moving hand to mouse - moving mouse to target - moving hand back is just slow</p>
+<p>(e.g. selection with copy-pasting)</p>
+<p>I can type a bunch of text in the meanwhile</p>
+</li>
+<li><p class="first">On notebooks: excessive touchpad use will fuck up your hand much faster</p>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="ed-ex-vi">
+
+<h2>Ed, Ex, Vi</h2>
+
+<p><code class="docutils literal"><span class="pre">Ed</span></code>, <code class="docutils literal"><span class="pre">Ex</span></code>: ancient history, 'editing languages' rather than 'text editors'
+as we know them today</p>
+<p><code class="docutils literal"><span class="pre">Vi</span></code>: major 'text editor' on Unix in 80's</p>
+<p><code class="docutils literal"><span class="pre">Vim</span></code>: &quot;Vi Improved&quot;, in development, with major user community, new plugins every day</p>
+<p><code class="docutils literal"><span class="pre">NeoVim</span></code>: Modern attempt to refactor Vim, with some traction</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-from-a-basic-user-view">
+
+<h2>Vim from a 'basic user' view</h2>
+
+<ul>
+<li><p class="first">I want to edit this text</p>
+</li>
+<li><p class="first">WTF why is text not changing</p>
+</li>
+<li><p class="first">WTF why did I just delete/move half of my text</p>
+</li>
+<li><p class="first">(finds insert mode)</p>
+<p>yeah... this is Notepad with weird clunky features</p>
+<p>(hjkl? WTF?)</p>
+<p>(what's with the weird shortcuts?)</p>
+<p>... recommends people to press 'i' and use it like crappy Notepad</p>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-what-it-really-is">
+
+<h2>Vim - what it really is</h2>
+
+<p>A text editor built around a text editing <strong>language</strong>.</p>
+<p>Those are <strong>not</strong> shortcuts. <strong>language</strong>.</p>
+<ul>
+<li><p class="first">Use <em>the language</em> to move around &amp; edit text from <em>normal mode</em></p>
+<p>Only entering insert mode exacly for the duration of a micro-edit</p>
+</li>
+<li><p class="first">Macros, and the <code class="docutils literal"><span class="pre">Ed</span></code>/<code class="docutils literal"><span class="pre">Ex</span></code> language</p>
+<p>E.g: select all matches of a regex in file, and run a <em>from</em> all of these</p>
+</li>
+</ul>
+<a class="reference internal image-reference" href="_images/vim_splits.png"><img alt="_images/vim_splits.png" class="align-right" src="_images/vim_splits.png" style="width: 35%;" /></a>
+<ul>
+<li><p class="first">No GUI wasting screen space; edit 3 files side by side</p>
+</li>
+<li><p class="first">And <em>daily</em> plugins trying out experimental features</p>
+<p>Features of Visual Studio 2025, today (EasyMotion, UltiSnips, Suround, Gundo...)</p>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-language-examples">
+
+<h2>Vim language examples</h2>
+
+<table border="1" class="docutils">
+<colgroup>
+<col width="7%" />
+<col width="93%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>ib</td>
+<td>in parentheses <code class="docutils literal"><span class="pre">()</span></code></td>
+</tr>
+<tr class="row-even"><td>ab</td>
+<td><em>around</em> parentheses (including them)</td>
+</tr>
+<tr class="row-odd"><td>vib</td>
+<td><em>select</em> in parentheses</td>
+</tr>
+<tr class="row-even"><td>cib</td>
+<td><em>change</em> in parentheses (rewrite content)</td>
+</tr>
+<tr class="row-odd"><td>2cib</td>
+<td>change in 2 levels of parentheses</td>
+</tr>
+<tr class="row-even"><td>da&quot;</td>
+<td><em>delete</em> around <em>double quotes</em>, including the quotes</td>
+</tr>
+<tr class="row-odd"><td>dit</td>
+<td>delete in (between) HTML/XML <em>tags</em></td>
+</tr>
+<tr class="row-even"><td>gUe</td>
+<td>go <em>UPPERCASE</em> to the end of word</td>
+</tr>
+<tr class="row-odd"><td>gUib</td>
+<td>go UPPERCASE in parentheses</td>
+</tr>
+<tr class="row-even"><td>gUt-</td>
+<td>go UPPERCASE <em>till</em> <code class="docutils literal"><span class="pre">-</span></code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>no mouse required</strong></p>
+<p><code class="docutils literal"><span class="pre">cib</span></code> vs mouse select:</p>
+<ul class="simple">
+<li><em>press c</em> vs (move hand to mouse/touchpad)</li>
+<li><em>press i</em> vs (drag mouse (touchpad) from paren to paren)</li>
+<li><em>press b</em> vs (press backspace)</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-language-gifs">
+
+<h2>Vim language; GIFs</h2>
+
+<a class="reference internal image-reference" href="_images/vim_macros2.gif"><img alt="_images/vim_macros2.gif" src="_images/vim_macros2.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/vim_macros.gif"><img alt="_images/vim_macros.gif" src="_images/vim_macros.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/vim_java.gif"><img alt="_images/vim_java.gif" src="_images/vim_java.gif" style="width: 24%;" /></a>
+<a class="reference internal image-reference" href="_images/vim_editing2.gif"><img alt="_images/vim_editing2.gif" src="_images/vim_editing2.gif" style="width: 24%;" /></a>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-the-life-of-improvement">
+
+<h2>Vim: the life of improvement</h2>
+
+<p>Vim has <em>mappings</em>, <em>scripting</em> and ever-appearing <em>plugins</em></p>
+<ol class="arabic simple">
+<li>Find repeating usage patterns, input redundancies</li>
+<li>Turn patterns into mappings, possibly functions, or find plugins</li>
+<li>Less typing/work/strain from now on</li>
+<li>Repeat</li>
+</ol>
+<p>Result: a <em>truly integrated</em> development environment, adapted exactly to the
+needs of the user</p>
+<p><em>One Vim user may not be able to use another user's Vim</em></p>
+
+
+
+
+</article>
+<article class="slide level-2" id="vim-s-children">
+
+<h2>Vim's children</h2>
+
+<ul class="simple">
+<li>IDE plugins - these usually miss the 'language' part, and do only 'HJKL'</li>
+<li>Browser plugins</li>
+<li>PDF viewers</li>
+<li>File managers</li>
+<li>Window Managers</li>
+<li>Shell vim-like bindings</li>
+<li>Even games</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="browser-plugins">
+
+<h2>Browser plugins</h2>
+
+<ul>
+<li><p class="first">Firefox: Vimperator/Pendatactyl, VimFX</p>
+<p>Pentadactyl allows the 'life of improvement' through mappings, etc.</p>
+</li>
+<li><p class="first">Chrome: Vimium</p>
+</li>
+</ul>
+<p>Also vim-like <em>browsers</em></p>
+<p>(VimFX Demo - move around, open link, go back, mass open links, search)</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="shell">
+
+<h2>Shell</h2>
+
+<ul>
+<li><p class="first">Vi mode in Bash</p>
+<p>Normal mode:</p>
+<p>move around the command line quickly, changing/replacing words, no mouse</p>
+</li>
+</ul>
+<p>(demo)</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="window-managers">
+
+<h2>Window Managers</h2>
+
+<ul class="simple">
+<li>Awesome, RatPoison, i3...</li>
+<li>Even KDE</li>
+</ul>
+<p>(demo)</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="and-many-others">
+
+<h2>And many others</h2>
+
+<ul class="simple">
+<li>Zathura (PDF viewing)</li>
+<li>cmus (music)</li>
+<li>ranger (file manager)</li>
+<li>blender (3D creation)</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="games">
+
+<h2>Games</h2>
+
+<ul class="simple">
+<li>Grey Goo</li>
+</ul>
+<p>Bindings really matter here (Progaming/esports games)</p>
+<p>(TODO)</p>
+
+
+
+
+</article>
+<article class="slide level-1" id="the-end">
+
+<h1>The End</h1>
+
+<p><a class="reference external" href="http://defenestrate.eu">http://defenestrate.eu</a></p>
+<p><a class="reference external" href="https://github.com/kiith-sa/keyboardlife">https://github.com/kiith-sa/keyboardlife</a></p>
+
+
+
+
+</article>
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
