@@ -2,9 +2,10 @@
 The Keyboard Life
 =================
 
+https://github.com/kiith-sa/keyboardlife
+
 http://defenestrate.eu
 
-.. XXX XXX github link 
 
 
 ------------------
@@ -902,6 +903,7 @@ Bindings really matter here (Progaming/esports games)
 The End
 =======
 
-.. XXX XXX github link 
 
 http://defenestrate.eu
+
+https://github.com/kiith-sa/keyboardlife
